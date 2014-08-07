@@ -19,6 +19,13 @@
 		A2310A6319933FDE003E0DF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2310A4B19933FDE003E0DF8 /* UIKit.framework */; };
 		A2310A6B19933FDE003E0DF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2310A6919933FDE003E0DF8 /* InfoPlist.strings */; };
 		A2310A6D19933FDE003E0DF8 /* Transparent_Show_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2310A6C19933FDE003E0DF8 /* Transparent_Show_DemoTests.m */; };
+		A2310A7919934054003E0DF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2310A7719934054003E0DF8 /* ViewController.m */; };
+		A2310A7A19934054003E0DF8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2310A7819934054003E0DF8 /* ViewController.xib */; };
+		A2310A7D199340AE003E0DF8 /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2310A7C199340AE003E0DF8 /* TransparentView.m */; };
+		A2310A801993416B003E0DF8 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2310A7E1993416B003E0DF8 /* background@2x.png */; };
+		A2310A811993416B003E0DF8 /* corver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2310A7F1993416B003E0DF8 /* corver@2x.png */; };
+		A2310A831993434A003E0DF8 /* watch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2310A821993434A003E0DF8 /* watch@2x.png */; };
+		A2310A85199364FA003E0DF8 /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2310A84199364FA003E0DF8 /* button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,15 @@
 		A2310A6819933FDE003E0DF8 /* Transparent-Show-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Transparent-Show-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		A2310A6A19933FDE003E0DF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2310A6C19933FDE003E0DF8 /* Transparent_Show_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transparent_Show_DemoTests.m; sourceTree = "<group>"; };
+		A2310A7619934054003E0DF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2310A7719934054003E0DF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2310A7819934054003E0DF8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		A2310A7B199340AE003E0DF8 /* TransparentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentView.h; sourceTree = "<group>"; };
+		A2310A7C199340AE003E0DF8 /* TransparentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentView.m; sourceTree = "<group>"; };
+		A2310A7E1993416B003E0DF8 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		A2310A7F1993416B003E0DF8 /* corver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corver@2x.png"; sourceTree = "<group>"; };
+		A2310A821993434A003E0DF8 /* watch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watch@2x.png"; sourceTree = "<group>"; };
+		A2310A84199364FA003E0DF8 /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,15 @@
 			children = (
 				A2310A5619933FDE003E0DF8 /* AppDelegate.h */,
 				A2310A5719933FDE003E0DF8 /* AppDelegate.m */,
+				A2310A7619934054003E0DF8 /* ViewController.h */,
+				A2310A7B199340AE003E0DF8 /* TransparentView.h */,
+				A2310A7C199340AE003E0DF8 /* TransparentView.m */,
+				A2310A7719934054003E0DF8 /* ViewController.m */,
+				A2310A7819934054003E0DF8 /* ViewController.xib */,
+				A2310A7E1993416B003E0DF8 /* background@2x.png */,
+				A2310A7F1993416B003E0DF8 /* corver@2x.png */,
+				A2310A821993434A003E0DF8 /* watch@2x.png */,
+				A2310A84199364FA003E0DF8 /* button@2x.png */,
 				A2310A5919933FDE003E0DF8 /* Images.xcassets */,
 				A2310A4E19933FDE003E0DF8 /* Supporting Files */,
 			);
@@ -219,7 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2310A85199364FA003E0DF8 /* button@2x.png in Resources */,
 				A2310A5219933FDE003E0DF8 /* InfoPlist.strings in Resources */,
+				A2310A811993416B003E0DF8 /* corver@2x.png in Resources */,
+				A2310A831993434A003E0DF8 /* watch@2x.png in Resources */,
+				A2310A7A19934054003E0DF8 /* ViewController.xib in Resources */,
+				A2310A801993416B003E0DF8 /* background@2x.png in Resources */,
 				A2310A5A19933FDE003E0DF8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2310A7919934054003E0DF8 /* ViewController.m in Sources */,
+				A2310A7D199340AE003E0DF8 /* TransparentView.m in Sources */,
 				A2310A5819933FDE003E0DF8 /* AppDelegate.m in Sources */,
 				A2310A5419933FDE003E0DF8 /* main.m in Sources */,
 			);
